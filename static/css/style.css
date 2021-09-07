@@ -1,0 +1,110 @@
+  
+  h2, h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: white;
+  }
+  
+  h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    
+    text-align:center;
+    color: white;
+  
+  
+  }
+  
+  p{
+    color: lightgoldenrodyellow;
+    text-align:left;
+  }
+  
+  .navbar{
+      position: absolute;
+      right: 30px;
+      width: 110px;
+      color: white;
+    
+  }
+  
+  .navbar a{
+    
+    width: 110px;
+    background: darkgrey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    display: block;
+       
+  }
+  
+  body {
+    width: 100%;
+    min-height:100%;
+    background-color: black;
+  }
+  
+  .col {
+    width: 100%;
+  } 
+  
+  .homebtn{
+    background-color: darkgrey;
+    z-index:2;
+  }
+  
+  .homebtn a{
+    width: 110px;
+    background: darkgrey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    display: block;
+    padding: 14px;
+    margin: 0px 0px 0px 40px;
+  }
+  
+  .divtop{
+    background-color: darkgrey;
+    z-index:2;
+  }
+  
+  .divbdy{
+    background-color: black;
+    z-index:1;
+  }
+  
+  .divtable{
+    text-align:center;
+    background-color: black;
+    z-index:1;
+    
+  }
+  
+  .divbtm {
+    width:100%;
+    bottom:0;
+    background-color: black;
+    z-index:0;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin: 0px;
+  }
+
+  .jumbotron {
+    background: black;
+  }
+
+  img {
+    padding: 14px;
+    margin: 20px 20px 20px 40px;
+    height: 150px;
+    width: 280px;
+  }
