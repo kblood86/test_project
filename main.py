@@ -21,7 +21,7 @@ def background():
 
 @app.route('/application')
 def application():
-    return render_template('application.html', column_names=column_names)
+    return render_template('application.html')
 
 
 @app.route('/about')
